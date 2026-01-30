@@ -1,3 +1,15 @@
+# Code editor settings
+/.vscode
+
+# Yarn
+.pnp.cjs
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
 # Nestjs specific
 /dist
 /node_modules

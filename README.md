@@ -1,2 +1,1 @@
-# rate-me-io-tg-bot
-Repository of rateme.io tg bot
+# RateMe.IO Telegram bot codebase
