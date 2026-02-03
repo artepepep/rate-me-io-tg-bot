@@ -4,6 +4,7 @@ import { session } from 'telegraf';
 import { TelegramService } from './telegram.service';
 import { TelegramController } from './telegram.controller';
 import { ConfigModule } from '@nestjs/config';
+import { CreateProfileScene } from './scenes/create-profile.scene';
 
 @Module({
   imports: [
@@ -15,6 +16,6 @@ import { ConfigModule } from '@nestjs/config';
       token: process.env.BOT_TOKEN!,
     }),
   ],
-  providers: [TelegramService, TelegramController],
+  providers: [TelegramService, TelegramController, CreateProfileScene],
 })
 export class TelegramModule {}
